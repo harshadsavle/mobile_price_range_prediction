@@ -1,1 +1,1 @@
-# mobile_sales_prediction
+# mobile_price_range_prediction
