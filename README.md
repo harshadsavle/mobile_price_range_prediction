@@ -16,7 +16,7 @@ This Project includes 2 executable files, 1 text files ,1 h5 file as well as 1 d
 
 Executable Files:
 
-* mobile_price_range_prediction_Apoorva_KR.ipynb - Includes all functions required for classification operations and generates the model.h5 file after execution.
+* data_mobile_price_range.ipynb - Includes all functions required for classification operations and generates the model.h5 file after execution.
 
 * data_mobile_price_range.ipynb - after execution, evaluation is done on the unseen data as in confusion_matrix.txt.
 
