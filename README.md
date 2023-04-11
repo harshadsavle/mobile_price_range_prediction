@@ -6,61 +6,6 @@ AlmaBetter Verfied Project - AlmaBetter School
 
 
 
-Built a Multi-Class classification model to find the relation between features of a mobile phone(RAM, Internal Memory etc) and its selling price. Model will predict the price range indicating how high the price is.
-
-
-
-💾 Project Files Description
-
-This Project includes 2 executable files, 1 text files ,1 h5 file as well as 1 directories as follows:
-
-Executable Files:
-
-* data_mobile_price_range.ipynb - Includes all functions required for classification operations and generates the model.h5 file after execution.
-
-* data_mobile_price_range.ipynb - after execution, evaluation is done on the unseen data as in confusion_matrix.txt.
-
-##Output Files:
-
-* model.h5 - Model contains information about the predictions of the train set, such as 0(low),high(1),very high(2).
-* confusion_matrix.txt - Contains information about the classified emotions of the test set.
-
-Source Directories:
-
-* Dataset - Includes all dataset for the training phase and testing phase of the model in the csv format.
------------------------------------------------------
-
-📖 Random Forest Classification
-
-Random forest classifier creates a set of decision trees from randomly selected subset of training set. It then aggregates the votes from different decision trees to decide the final class of the test object.Ensembled algorithms are those which combines more than one algorithms of same or different kind for classifying objects. For example, running prediction over Naive Bayes, SVM and Decision Tree and then taking vote for final consideration of class for test object.Basic parameters to Random Forest Classifier can be total number of trees to be generated and decision tree related parameters like minimum split, split criteria etc.
-
-
-![2 trees](https://user-images.githubusercontent.com/99638119/230790281-39152b20-9f88-459b-8e2f-3fccfabf3b42.png)
-
-📖 XGboost
-XGBoost stands for “Extreme Gradient Boosting”. XGBoost is an optimized distributed gradient boosting library designed to be highly efficient, flexible and portable. It implements Machine Learning algorithms under the Gradient Boosting framework. It provides a parallel tree boosting to solve many data science problems in a fast and accurate way.
-
-![3 xg boost](https://user-images.githubusercontent.com/99638119/230790299-bafede13-bde2-4136-ad6c-ecd39e5d5586.png)
-
------------------------------------------------------
-
-📋 Execution Instruction
-
-The order of execution of the program files is as follows:
-
-1) data_mobile_price_range.ipynb
-
-This file must be executed, to define all the functions and variables required for classification operations which leads to the production of the model.h5 file. and to evaluate the model performance on unseen data
-
------------------------------------------------------
-
-📜 Credits
-
-< Harshad Savle > | Data Scientist | Machine Learning Engineer | Deep Learning enthusiast
-
-Contact me for Data Science Project Collaborations
-
-LinkedIn Badge GitHub Badge
 
 📚 References
 'Mobile Price Prediction Using Machine Learning Blog' . [Online].
